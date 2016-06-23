@@ -142,6 +142,9 @@
     <testcase classname="tst_QString" name="fromQLatin1StringWithLength" time="0.000"/>
     <testcase classname="tst_QString" name="assignQLatin1String" time="0.000"/>
     <testcase classname="tst_QString" name="isRightToLeft" time="0.000"/>
+    <testcase classname="tst_QString" name="durationInteger" time="1234"/>
+    <testcase classname="tst_QString" name="durationFloatDot" time="1234.567"/>
+    <testcase classname="tst_QString" name="durationFloatComma" time="1234.567"/>
     <testcase classname="tst_QString" name="cleanupTestCase" time="0.000"/>
     <system-out/>
     <system-err/>

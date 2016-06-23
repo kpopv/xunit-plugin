@@ -2359,6 +2359,18 @@
             <DataTag><![CDATA[surrogates-cypriot]]></DataTag>
         </Incident>
     </TestFunction>
+    <TestFunction name="durationInteger">
+        <Incident type="pass" file="" line="0"/>
+        <Duration msecs="1234"/>
+    </TestFunction>
+    <TestFunction name="durationFloatDot">
+        <Incident type="pass" file="" line="0"/>
+        <Duration msecs="1234.567"/>
+    </TestFunction>
+    <TestFunction name="durationFloatComma">
+        <Incident type="pass" file="" line="0"/>
+        <Duration msecs="1234,567"/>
+    </TestFunction>
     <TestFunction name="cleanupTestCase">
         <Incident type="pass" file="" line="0"/>
     </TestFunction>
